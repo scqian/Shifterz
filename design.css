@@ -1,0 +1,23 @@
+#title {
+    background-image: url(dance.jpg);
+    min-height: 670px;
+    margin-bottom: 0px;
+}
+
+#videos {
+    margin-bottom: 0px;
+    min-height: 670px;
+}
+body {
+    padding: 0px;
+}
+.cButton {
+    color: #FFFFFF;
+    min-width: 50px;
+    background: none;
+    border-radius: 10px;
+}
+
+.cButton:hover {
+    background-color: gray;
+}

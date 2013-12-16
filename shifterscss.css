@@ -1,0 +1,120 @@
+body {
+   padding-top: 0px;
+   /*background-color: #F0F0F0;*/
+   background-color: #431111;
+}
+.container {
+    margin: 0px;
+}
+#logo {
+    position: relative;
+    top: 50px;
+    width: 170px;
+    height: 70px;
+}
+#navbar {
+    position: relative;
+    top: 110px;
+}
+#navbar a {
+    color: #000000;
+}
+#nav {
+    border-right: 1px solid black;
+    position: fixed;
+    min-height: 100%;
+    height: 100%;
+    min-width: 15%;
+    width: 15%;
+    padding-top: 40px;
+    box-shadow: 2px 1px 1px #590000;
+    border-color: #CDCDCD;
+}
+#main {
+    position: relative;
+    left: 280px;
+    padding-top: 40px;
+}
+
+#contacts {
+    position: fixed;
+    left: 960px;
+    padding-top: 40px;
+    min-height: 100%;
+    height: 100%;
+    min-width: 15%;
+    width: 15%;
+    /*background-color: #590000;*/
+}
+
+#fbutton, #gbutton, #tbutton {
+    padding: 0px;
+}
+
+#fb, #gp, #tb {
+    height: 25px;
+    width: 25px;
+}
+
+#buttons {
+    position: relative;
+    top: 620px;
+    min-width: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#fbutton {
+    position: relative;
+}
+
+#gbutton {
+    position: relative;
+}
+
+#tbutton {
+    position: relative;
+}
+
+#active {
+    text-decoration: underline;
+}
+
+.video {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#finish1, #finish2{
+    width: 207px;
+    min-width: 207px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+}
+
+#finish1 {
+    top: 700px;
+}
+
+#finish2 {
+    top: 715px;
+}
+
+#sLogo {
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.picture {
+    width: 600px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.date, .description {
+    margin: 0px;
+}

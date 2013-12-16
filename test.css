@@ -1,0 +1,55 @@
+body {
+    background-color: #431111;
+}
+
+#mainNav {
+    border: none;
+    padding: 0px;
+}
+
+@media (min-width: 980px) {
+    .pull-center {
+        text-align: center;
+    }
+    .pull-center > .nav {
+        float:none;
+        display:inline-block;
+        *display: inline; *zoom: 1;
+        height: 32px;
+    }
+}
+
+#facebook, #twitter {
+    color: #FFFFFF;
+    font-size: 50px;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    background: none;
+    position: relative;
+}
+
+#facebook:hover{
+    color: #3B5998;
+} 
+#twitter:hover {
+    color: #4099FF;
+}
+
+#facebook {
+    left: -30px;
+}
+#twitter {
+    left: 25px;
+}
+
+#stanford {
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+}
+
+#stanford:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
